@@ -1,0 +1,5 @@
+Commandes utiles :
+
+Créer projet : composer create-project laravel/laravel "nom du projet"
+
+Démarrer serveur : php artisan serve
