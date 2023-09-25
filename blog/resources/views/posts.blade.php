@@ -10,7 +10,7 @@
                     {{ $post->title }}
                 </a>
             </h1> 
-            <div>
+            <div> 
                 {{ $post->excerpt }}
             </div>
         </article>
