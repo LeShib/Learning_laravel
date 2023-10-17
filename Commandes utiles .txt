@@ -1,11 +1,17 @@
 Commandes utiles :
 
-Créer projet : composer create-project laravel/laravel "nom du projet"
+Créer projet -> composer create-project laravel/laravel "nom du projet"
 
-Démarrer serveur : php artisan serve
+consulter cache -> cache('nameOfKey')
 
-php en ligne de commande : php artisan tinker
+Effacer cache -> cache()->forget('nameOfKey');
 
-consulter cache : cache('nameOfKey')
+Démarrer serveur -> php artisan serve
 
-Effacer cache : cache()->forget('nameOfKey');
+php en ligne de commande -> php artisan tinker
+
+créer une migration -> php artisan make:migration "nom" 
+
+exécuter la migration -> php artisan migrate
+
+Créer un controleur -> php artisan make:controller "nomController"
